@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="GO_Online">
+
+<!-- If add more test cases In this suite, You need to add them as below. -->
+
+<test name="GO_Online_SIF">
+    <classes>
+        <class name="edu.kheg.GOSIF.GO_Online_SIF" ></class>  
+    </classes>
+</test>
+</suite>

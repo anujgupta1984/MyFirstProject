@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="KU_Marketing_SIF" parallel="tests">
+
+	<test name="FirefoxTest">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="edu.sif.go.online.Tertiary_Programs" />
+		</classes>
+	</test>
+
+
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="edu.sif.go.online.Regular_Programs" />
+		</classes>
+	</test>
+
+
+	<test name="IETest">
+		<parameter name="browser" value="iexplore" />
+		<classes>
+			<class name="edu.sif.go.online.Bachelor_Degree_Programs" />
+		</classes>
+	</test>
+
+</suite>

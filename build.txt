@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="KU Marekting SIF" basedir="." default = "runTestNG">
+
+<property name="basedir" value= "."/>
+<property name="test.testng1" value ="${basedir}"/>
+<property name="testng.output.dir" value = "${basedir}/test_output"/>
+<property name="testNg.dir" value="${basedir}/testng-6.8/testng-6.8" /> 
+<property name="jlb.dir" location="${basedir}\\apache-ant-1.9.2-bin\\apache-ant-1.9.2"/>
+<property name="javamail.dir" location="${basedir}\\JavaMailAPI jars\\javamail1_4_7\\javamail-1.4.7"/>
+
+
+	
+	<!--Setting classpath of TestNg .jar file -->
+	<taskdef name="testng" classname="org.testng.TestNGAntTask">
+	   <classpath>
+	     <pathelement location="C:\\Selenium Webdriver Scripts\\eclipse-jee-kepler-SR1-win32\\eclipse\\plugins\\org.testng.eclipse_6.8.6.20141201_2240\\lib\\testng.jar"/>
+	   </classpath>
+	</taskdef>
+	
+  <!-- Directory path of compiled classes(i.e *.class) -->
+  <path id="classes">
+      <pathelement location="C:\\Selenium Webdriver Scripts\\Scripts\\SIF_Submission\\bin\\edu\\sif\\go\\online" />
+  	  <pathelement location="C:\\Program Files\\Java\\jre1.8.0_20\\lib\\tools.jar" /> 
+  	  <pathelement location="${basedir}/selenium-server-standalone-2.43.1.jar" /> 
+  	  <pathelement location="C:\\Selenium Webdriver Scripts\\All required Jars\\jxl\\jxl.jar" />
+  	  
+</path>
+	
+	<!-- Path used in sending email -->
+	<path id="mail.path">
+			<pathelement location="${javamail.dir}/mail.jar" />
+			<pathelement location="${jlb.dir}/lib/javax.activation.jar" />
+			<pathelement location="${jlb.dir}/lib/java-mail-1.4.4.jar" />
+			<pathelement location="${jlb.dir}/lib/ant-classloadertask.jar"/>
+	   </path>
+
+	<!-- Class loader task used to send emails-->
+<!-- <taskdef name="classloadertask"
+			classname="org.apache.tools.ant.taskdefs.ClassloaderTask" classpathref="mail.path"/>
+		
+		<classloadertask classpathRef="mail.path" loader="thread"/>
+		<property name="address" value="kapxautomation@gmail.com"/>
+		<property name="password" value="kaplan12"/> -->
+	
+	<!--Cleaning and creating results directory-->
+	<target name="cleanResults">
+		<delete dir="${testng.output.dir}"/> <!-- Delete the output directory. -->
+		<mkdir dir="${testng.output.dir}"/>	<!-- Create the output directory. -->
+	</target>
+	
+	<!--Run the TestNg Tests -->
+	<target name="runTestNG" depends="compile">
+	    <testng outputdir="${testng.output.dir}" classpathref="classes" classpath="${basedir}/selenium-server-standalone-2.43.1.jar">
+	      <xmlfileset dir="." includes="testng.xml"/> 
+	    </testng>
+	 
+	</target>
+	
+	<!--Compile the Tests i.e. .java files-->
+	  	<target name="compile"  depends = "cleanResults">
+	  		<echo>Compiling base classes</echo>
+	  	<javac includeantruntime="false" srcdir="C:\\Selenium Webdriver Scripts\\Scripts\\SIF_Submission\\src\\edu\\sif\\go\\online" destdir="C:\\Selenium Webdriver Scripts\\Scripts\\SIF_Submission\\bin\\edu\\sif\\go\\online" classpathref="classes" fork="no" executable="C:\\Program Files\\Java\\jdk1.8.0_11\\bin" /> 
+	  		<echo>Compiling Global classes</echo>
+	  		<echo>Complie process done</echo>
+		</target>
+	  
+	<!--Generate reports-->
+  	<target name="generateXSLTRep" depends ="runTestNG">
+  		<delete dir="${project.dir}/XSLT_Reports/output">
+  		</delete>
+  		<mkdir dir="${project.dir}/XSLT_Reports/output"/>
+		<xslt in="${basedir}/test_output/testng-results.xml" out="${basedir}/testng-xslt/index.html" style="${basedir}/testng-results.xsl" >
+		  		<param expression="${basedir}/testng-xslt/" name="testNgXslt.outputDir" />
+          		<param expression="true" name="testNgXslt.sortTestCaseLinks" />
+          		<param expression="FAIL,SKIP,PASS,CONF,BY_CLASS" name="testNgXslt.testDetailsFilter" />
+          		<param expression="true" name="testNgXslt.showRuntimeTotals" />
+			<classpath>
+				<pathelement location="${basedir}/bin/edu/sif/go/online" />
+				<fileset dir="${basedir}/testng-xslt-1.1.2-master/lib">
+					<include name="**/*.jar" />
+				</fileset>
+        	</classpath>
+		</xslt>
+  	</target>
+	 
+	
+	
+	</project>

@@ -1,0 +1,368 @@
+<html>
+<head>
+<title>TestNG:  GO_Online_SIF</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>GO_Online_SIF</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 28 20:05:35 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>55 seconds (55184 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='edu.kheg.GOSIF.GO_Online_SIF.closeBrowser()'><b>closeBrowser</b><br>Test class: edu.kheg.GOSIF.GO_Online_SIF</td>
+<td><div><pre>java.lang.NullPointerException
+	at edu.kheg.SuiteBase.SuiteBase.closeWebBrowser(SuiteBase.java:97)
+	at edu.kheg.GOSIF.GO_Online_SIF.closeBrowser(GO_Online_SIF.java:170)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace11993056", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace11993056'><pre>java.lang.NullPointerException
+	at edu.kheg.SuiteBase.SuiteBase.closeWebBrowser(SuiteBase.java:97)
+	at edu.kheg.GOSIF.GO_Online_SIF.closeBrowser(GO_Online_SIF.java:170)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1014)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='edu.kheg.GOSIF.GO_Online_SIF.Regular_SIF()'><b>Regular_SIF</b><br>Test class: edu.kheg.GOSIF.GO_Online_SIF<br>Parameters: AS, ABAP_CERT, , No, Still in High School, y</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+rg&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.5&quot;,&quot;st&quot;:1481951150932},&quot;firefox@getpocket.com&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0.5&quot;,&quot;st&quot;:1481951150904},&quot;webcompat@mozilla.org&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0&quot;,&quot;st&quot;:1481951150867}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;50.1.0&quot;,&quot;st&quot;:1481951151002}}}
+1482935744385	addons.xpi	DEBUG	No changes found
+1482935744391	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1482935744392	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1482935744397	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 1.0
+1482935744398	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1482935744399	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1482935744408	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.5
+1482935744410	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1482935744410	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1482935744414	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1482935744420	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\ANUJ~1.GUP\AppData\Local\Temp\anonymous5664200337154159589webdriver-profile\extensions.json
+1482935744421	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1482935744422	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1482935744424	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1482935744426	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1482935744426	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1482935744426	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1482935744426	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1482935744426	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1482935744427	addons.manager	DEBUG	Starting provider: GMPProvider
+1482935744435	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1482935744435	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1482935744435	addons.manager	DEBUG	Starting provider: PluginProvider
+1482935744436	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1482935744436	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1482935744436	addons.manager	DEBUG	Completed startup sequence
+1482935744700	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1482935744700	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1482935744702	addons.xpi-utils	DEBUG	Successfully read XPI database
+1482935744713	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1482935744713	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1482935744713	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1482935744821	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1482935744821	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1482935744821	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bce&apos;, time: &apos;2014-09-10 16:27:33&apos;
+System info: host: &apos;Agupta-laptop&apos;, ip: &apos;10.163.105.92&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:193)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at edu.kheg.SuiteBase.SuiteBase.loadWebBrowser(SuiteBase.java:73)
+	at edu.kheg.GOSIF.GO_Online_SIF.Regular_SIF(GO_Online_SIF.java:87)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+rg&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.5&quot;,&quot;st&quot;:1481951150932},&quot;firefox@getpocket.com&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0.5&quot;,&quot;st&quot;:1481951150904},&quot;webcompat@mozilla.org&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0&quot;,&quot;st&quot;:1481951150867}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;50.1.0&quot;,&quot;st&quot;:1481951151002}}}
+1482935744385	addons.xpi	DEBUG	No changes found
+1482935744391	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1482935744392	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1482935744397	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 1.0
+1482935744398	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1482935744399	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1482935744408	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.5
+1482935744410	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1482935744410	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1482935744414	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1482935744420	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\ANUJ~1.GUP\AppData\Local\Temp\anonymous5664200337154159589webdriver-profile\extensions.json
+1482935744421	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1482935744422	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1482935744424	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1482935744426	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1482935744426	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1482935744426	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1482935744426	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1482935744426	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1482935744427	addons.manager	DEBUG	Starting provider: GMPProvider
+1482935744435	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1482935744435	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1482935744435	addons.manager	DEBUG	Starting provider: PluginProvider
+1482935744436	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1482935744436	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1482935744436	addons.manager	DEBUG	Completed startup sequence
+1482935744700	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1482935744700	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1482935744702	addons.xpi-utils	DEBUG	Successfully read XPI database
+1482935744713	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1482935744713	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1482935744713	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1482935744821	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1482935744821	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1482935744821	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 32 more
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace4989694", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace4989694'><pre>org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+rg&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.5&quot;,&quot;st&quot;:1481951150932},&quot;firefox@getpocket.com&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0.5&quot;,&quot;st&quot;:1481951150904},&quot;webcompat@mozilla.org&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0&quot;,&quot;st&quot;:1481951150867}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;50.1.0&quot;,&quot;st&quot;:1481951151002}}}
+1482935744385	addons.xpi	DEBUG	No changes found
+1482935744391	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1482935744392	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1482935744397	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 1.0
+1482935744398	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1482935744399	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1482935744408	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.5
+1482935744410	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1482935744410	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1482935744414	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1482935744420	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\ANUJ~1.GUP\AppData\Local\Temp\anonymous5664200337154159589webdriver-profile\extensions.json
+1482935744421	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1482935744422	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1482935744424	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1482935744426	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1482935744426	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1482935744426	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1482935744426	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1482935744426	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1482935744427	addons.manager	DEBUG	Starting provider: GMPProvider
+1482935744435	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1482935744435	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1482935744435	addons.manager	DEBUG	Starting provider: PluginProvider
+1482935744436	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1482935744436	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1482935744436	addons.manager	DEBUG	Completed startup sequence
+1482935744700	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1482935744700	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1482935744702	addons.xpi-utils	DEBUG	Successfully read XPI database
+1482935744713	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1482935744713	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1482935744713	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1482935744821	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1482935744821	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1482935744821	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bce&apos;, time: &apos;2014-09-10 16:27:33&apos;
+System info: host: &apos;Agupta-laptop&apos;, ip: &apos;10.163.105.92&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:193)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at edu.kheg.SuiteBase.SuiteBase.loadWebBrowser(SuiteBase.java:73)
+	at edu.kheg.GOSIF.GO_Online_SIF.Regular_SIF(GO_Online_SIF.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+rg&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.5&quot;,&quot;st&quot;:1481951150932},&quot;firefox@getpocket.com&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0.5&quot;,&quot;st&quot;:1481951150904},&quot;webcompat@mozilla.org&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;1.0&quot;,&quot;st&quot;:1481951150867}},&quot;app-global&quot;:{&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;:{&quot;d&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;e&quot;:true,&quot;v&quot;:&quot;50.1.0&quot;,&quot;st&quot;:1481951151002}}}
+1482935744385	addons.xpi	DEBUG	No changes found
+1482935744391	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1482935744392	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1482935744397	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 1.0
+1482935744398	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1482935744399	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1482935744408	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.5
+1482935744410	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1482935744410	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1482935744414	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1482935744420	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\ANUJ~1.GUP\AppData\Local\Temp\anonymous5664200337154159589webdriver-profile\extensions.json
+1482935744421	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1482935744422	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1482935744424	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+1482935744426	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1482935744426	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1482935744426	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1482935744426	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1482935744426	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1482935744427	addons.manager	DEBUG	Starting provider: GMPProvider
+1482935744435	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1482935744435	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1482935744435	addons.manager	DEBUG	Starting provider: PluginProvider
+1482935744436	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1482935744436	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1482935744436	addons.manager	DEBUG	Completed startup sequence
+1482935744700	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1482935744700	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1482935744702	addons.xpi-utils	DEBUG	Successfully read XPI database
+1482935744713	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1482935744713	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1482935744713	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1482935744821	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1482935744821	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1482935744821	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 32 more
+</pre></div></td>
+<td>55</td>
+<td>edu.kheg.GOSIF.GO_Online_SIF@1e0a01f</td></tr>
+<tr>
+<td title='edu.kheg.GOSIF.GO_Online_SIF.Regular_SIF()'><b>Regular_SIF</b><br>Test class: edu.kheg.GOSIF.GO_Online_SIF</td>
+<td><div><pre>java.lang.NullPointerException
+	at edu.kheg.utility.Screenshot_Utility.captureScreenShot(Screenshot_Utility.java:66)
+	at edu.kheg.utility.Screenshot_Utility.onTestFailure(Screenshot_Utility.java:43)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace12610015", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace12610015'><pre>java.lang.NullPointerException
+	at edu.kheg.utility.Screenshot_Utility.captureScreenShot(Screenshot_Utility.java:66)
+	at edu.kheg.utility.Screenshot_Utility.onTestFailure(Screenshot_Utility.java:43)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1895)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1879)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:778)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+</pre></div></td>
+<td>55</td>
+<td>edu.kheg.GOSIF.GO_Online_SIF@1e0a01f</td></tr>
+</table><p>
+</body>
+</html>

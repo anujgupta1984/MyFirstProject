@@ -1,0 +1,156 @@
+package edu.sif.go.online;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
+
+import jxl.Sheet;
+import jxl.Workbook;
+import jxl.read.biff.BiffException;
+
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class Tertiary_Programs {
+	
+	private WebDriver driver;
+
+    // Configure for multi-browser drivers
+    @Parameters("browser")
+    @BeforeClass
+    public void openbrowser(String browser) 
+    {
+    	DesiredCapabilities capability = new DesiredCapabilities();
+    	if (browser.equalsIgnoreCase("firefox"))
+    	{
+               driver = new FirefoxDriver();
+        } 
+    	else if (browser.equalsIgnoreCase("chrome"))
+    	{
+               // Set Path for the executable file
+               System.setProperty("webdriver.chrome.driver",
+                            "C:\\Selenium Webdriver Scripts\\chromedriver_win32\\chromedriver.exe");
+               driver = new ChromeDriver();
+        }
+    	else if (browser.equalsIgnoreCase("iexplore"))
+    	{
+    	       // Set Path for the executable file
+        	capability=DesiredCapabilities.internetExplorer();
+	    	capability.setBrowserName("iexplore");	
+	        capability.setPlatform(Platform.WINDOWS);
+	    	capability.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+		    capability.setCapability("initialBrowserUrl", driver); 
+		    capability.setJavascriptEnabled(true);
+	    }
+        else if(browser.equalsIgnoreCase("safari"))
+        {	
+        	capability=DesiredCapabilities.safari();
+        } 
+    	else {
+               throw new IllegalArgumentException("The Browser Type is Undefined");
+        }
+        // Open site
+        driver.get("http://go.kaplanuniversity.edu/index.aspx?source=KU_Test&ve=60080");
+ }
+	
+	
+	@Test
+	public void SubmitTertiaryProgramSIF() throws BiffException, IOException, InterruptedException, NoSuchElementException
+	{
+		try{
+		FileInputStream fi = new FileInputStream("C:\\Selenium Webdriver Scripts\\Scripts\\SIF_Submission\\src\\GO_Online.xls");
+		Workbook wb = Workbook.getWorkbook(fi);
+		Sheet sh = wb.getSheet(1);
+		for(int row=0; row<sh.getRows(); row++)
+		{
+			String AOS = sh.getCell(0,row).getContents();
+			String POI = sh.getCell(1,row).getContents();
+			String Spec = sh.getCell(2, row).getContents();
+			String Mil = sh.getCell(3, row).getContents();
+			String Highed = sh.getCell(4, row).getContents();
+			driver.get("http://go.kaplanuniversity.edu/index.aspx?source=KU_Test&ve=60080");
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			Select dropdown = new Select(driver.findElement(By.name("selAreaStudy13214")));
+			dropdown.selectByValue(AOS);
+			Select dropdown1 = new Select(driver.findElement(By.name("selProgram")));
+			dropdown1.selectByValue(POI);
+			Select dropdown2 = new Select(driver.findElement(By.name("selSpecialization")));
+			dropdown2.selectByValue(Spec);
+			driver.findElement(By.linkText("Next Step")).click();
+			driver.findElement(By.name("txtFirstName")).sendKeys(RandomStringUtils.random(10,new char[]{'a','b','c','d'}));
+			driver.findElement(By.name("txtLastName")).sendKeys(RandomStringUtils.random(10,new char[]{'e','f','g','h'}));
+			driver.findElement(By.name("txtAddress")).sendKeys(RandomStringUtils.random(10,new char[]{'i','j','k','l'}));
+			driver.findElement(By.name("txtCity")).sendKeys(RandomStringUtils.random(10,new char[]{'m','n','o','p'}));
+			Select dropdown3 = new Select(driver.findElement(By.name("selState")));
+			dropdown3.selectByValue("Florida");
+			driver.findElement(By.name("txtZip")).sendKeys("33301");
+			driver.findElement(By.name("txtPhone")).sendKeys("9545151111");
+			driver.findElement(By.name("txtEmail")).sendKeys(Email());
+			Select dropdown4 = new Select(driver.findElement(By.name("selmilitaryType")));
+			dropdown4.selectByValue(Mil);
+			Select dropdown5 = new Select(driver.findElement(By.name("HighestEducation")));
+			dropdown5.selectByValue(Highed);
+			driver.findElement(By.id("RightProofContentDropZone_columnDisplay_ctl00_controlcolumn_ctl03_WidgetHost_WidgetHost_widget_LinkButton1")).click();
+			new FluentWait<WebDriver>(driver)
+					 .withTimeout(30, TimeUnit.SECONDS)
+					 .pollingEvery(5,TimeUnit.SECONDS)
+					 .ignoring(NoSuchElementException.class).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='MainContentDiv']/h1[2]")));
+					}
+		}catch(Exception e){
+			//Takes the screenshot when test fails
+			Assert.fail("Test has been failed");
+			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(scrFile, new File("C:\\Selenium Webdriver Scripts\\Screenshot\\Tertiary_Program_failure.png"));
+		}
+		
+	}
+
+	public static String Email()
+	{
+		//to get current date in number
+	DateFormat df = new SimpleDateFormat("d");
+	Date day = new Date();
+	/* to get only current year*/
+	DateFormat df1 = new SimpleDateFormat("yy");
+	Date year = new Date();
+	/* to get current month in words*/
+	Calendar cal = Calendar.getInstance();
+	String c = new SimpleDateFormat("MMM").format(cal.getTime());
+    String s = RandomStringUtils.random(5,new char[]{'a','b','c','d'});
+	String s1 = "test"+df.format(day)+c+df1.format(year)+"test"+s+"@tester.com";
+	return s1;
+	}
+	@AfterClass
+    public void afterTest() {
+           try {
+                  driver.close();
+           } catch (Exception e) {
+                  driver = null;
+           }
+    }
+	
+}

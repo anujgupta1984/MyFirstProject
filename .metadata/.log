@@ -1,0 +1,957 @@
+!SESSION 2014-12-01 18:32:02.640 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data D:\KHEG Marketing -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-12-01 18:32:16.216
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-12-01 18:32:16.217
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\piyush.garg'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-12-01 23:08:06.201 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-12-01 23:08:30.028
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-12-01 23:08:30.043
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\piyush.garg'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-12-06 14:26:58.401 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data D:\KHEG Marketing -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-12-06 14:27:12.582
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-12-06 14:27:12.597
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\piyush.garg'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2014-12-06 18:29:33.286
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-06 18:29:33.286
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@faf104,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d06f1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-06 18:29:33.286
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@198b809,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1ee97ca,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-06 18:29:33.286
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1fede14,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@105f16d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-06 18:29:33.286
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@cd102,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d6501a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-06 18:29:33.286
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c93d16,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@136dedf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-06 18:29:33.286
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f5e34,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@dd5705,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-06 18:29:33.286
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1cd31c3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16c90c4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-06 18:29:33.286
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.addPlugin,Add Maven Plugin,
+		Add Maven Plugin,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a57b90,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.core.runtime.xml,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@188f893,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f757ce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-06 18:29:33.286
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8173fa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f250aa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-06 18:29:33.286
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@192b416,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1111bc0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-06 18:29:33.286
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d33ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@278989,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-06 18:29:33.286
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c3c037,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3cfea4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-06 18:29:33.286
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@68c286,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@519a89,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+
+!ENTRY org.testng.eclipse 1 0 2014-12-06 19:02:24.124
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 30376 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 30376 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-06 19:03:55.949
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 30387 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 30387 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-06 19:07:41.177
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 30406 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 30406 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-06 19:16:57.924
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 30465 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 30465 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-06 19:43:01.378
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 30939 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\GO_Online.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 30939 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\GO_Online.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-06 19:47:39.149
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 30964 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\GO_Online.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 30964 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\GO_Online.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-06 19:52:34.358
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 31359 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\GO_Online.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 31359 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\GO_Online.xml
+!SESSION 2014-12-07 14:16:11.806 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-12-07 14:16:38.431
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-12-07 14:16:38.460
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\piyush.garg'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2014-12-07 14:25:43.345
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 36681 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 36681 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-07 14:51:22.228
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 37728 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 37728 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-07 14:52:27.522
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 37912 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 37912 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-07 14:57:23.015
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 38124 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 38124 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-07 14:58:01.735
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 38137 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 38137 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-07 15:00:13.144
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 38546 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 38546 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+!SESSION 2014-12-09 14:35:53.020 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-12-09 14:36:24.793
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-12-09 14:36:24.912
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\piyush.garg'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2014-12-09 16:55:14.683
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 4569 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 4569 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-09 16:57:07.849
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 4584 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 4584 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-09 16:57:26.608
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 4591 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 4591 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-09 16:57:35.704
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 4601 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\GO_Online.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 4601 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\GO_Online.xml
+!SESSION 2014-12-09 17:11:10.244 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-12-09 17:11:29.725
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-12-09 17:11:29.726
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\piyush.garg'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2014-12-09 17:14:59.501
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 4762 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 4762 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-09 17:15:36.344
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 4769 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 4769 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.eclipse.jface 2 0 2014-12-09 17:16:37.663
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-09 17:16:37.663
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1fd43da,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f12d7e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-09 17:16:37.663
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1514add,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15376d5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-09 17:16:37.663
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70a620,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d3f20e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-09 17:16:37.663
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@173bd6b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1dfadb7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-09 17:16:37.663
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1dec536,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2fa2f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-09 17:16:37.663
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.addPlugin,Add Maven Plugin,
+		Add Maven Plugin,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4bd9e4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.core.runtime.xml,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e595dc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ea1521,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-09 17:16:37.663
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c8416a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24a39e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-09 17:16:37.663
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@126ecb7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@196950e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-09 17:16:37.663
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a4ffd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10dc900,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-09 17:16:37.663
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@141d346,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e4bbec,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-09 17:16:37.663
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@324c9f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b5af13,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-09 17:16:37.663
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1050f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12e75ae,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-12-09 17:16:37.663
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a1209b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ccec82,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+
+!ENTRY org.testng.eclipse 1 0 2014-12-09 17:16:46.167
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 4779 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 4779 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-09 17:17:35.854
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 4785 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\src\edu\kheg\GOSIF\GO_Online_SIF.java
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 4785 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\src\edu\kheg\GOSIF\GO_Online_SIF.java
+
+!ENTRY org.testng.eclipse 1 0 2014-12-09 17:18:49.847
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 4795 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 4795 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-09 17:21:14.924
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 4815 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 4815 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-12-09 17:22:19.875
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\KHEG Marketing\SIF\bin C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 4821 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+java -ea -classpath /C:/Selenium Webdriver Scripts/eclipse-jee-kepler-SR1-win32/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\KHEG Marketing\SIF\bin:C:\Selenium Webdriver Scripts\eclipse-jee-kepler-SR1-win32\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar:D:\KHEG Marketing\SIF\JarFiles\dom4j-1.6.1.jar:D:\KHEG Marketing\SIF\JarFiles\log4j-1.2.17.jar:D:\KHEG Marketing\SIF\JarFiles\poi-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:D:\KHEG Marketing\SIF\JarFiles\saxon-8.7.jar:D:\KHEG Marketing\SIF\JarFiles\SaxonLiaison.jar:D:\KHEG Marketing\SIF\JarFiles\selenium-server-standalone-2.43.1.jar:D:\KHEG Marketing\SIF\JarFiles\testng-xslt-maven-plugin-test-0.0.jar:D:\KHEG Marketing\SIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 4821 -d D:\KHEG Marketing\SIF\test-output D:\KHEG Marketing\SIF\testng.xml
+!SESSION 2015-06-17 14:48:58.911 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data C:\Automation Scripts\KHEG Marketing -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-06-17 14:49:37.693
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-06-17 14:49:37.711
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\piyush.garg'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-06-17 14:58:07.888
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Automation Scripts\KHEG Marketing\SIF\bin D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\testng.jar D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\jcommander.jar D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\bsh-2.0b4.jar D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\snakeyaml.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\dom4j-1.6.1.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\log4j-1.2.17.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-3.10.1-20140818.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-examples-3.10.1-20140818.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-excelant-3.10.1-20140818.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-ooxml-3.10.1-20140818.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-scratchpad-3.10.1-20140818.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\saxon-8.7.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\SaxonLiaison.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\selenium-server-standalone-2.46.0.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\stax-api-1.0.1.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62242 -d C:\Automation Scripts\KHEG Marketing\SIF\test-output C:\Automation Scripts\KHEG Marketing\SIF\GO_Online.xml
+java -ea -classpath C:\Automation Scripts\KHEG Marketing\SIF\bin:D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\testng.jar:D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\jcommander.jar:D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\bsh-2.0b4.jar:D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\snakeyaml.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\dom4j-1.6.1.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\log4j-1.2.17.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-3.10.1-20140818.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-examples-3.10.1-20140818.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-excelant-3.10.1-20140818.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-scratchpad-3.10.1-20140818.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\saxon-8.7.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\SaxonLiaison.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\selenium-server-standalone-2.46.0.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\stax-api-1.0.1.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 62242 -d C:\Automation Scripts\KHEG Marketing\SIF\test-output C:\Automation Scripts\KHEG Marketing\SIF\GO_Online.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-06-17 15:03:35.843
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Automation Scripts\KHEG Marketing\SIF\bin D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\testng.jar D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\jcommander.jar D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\bsh-2.0b4.jar D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\snakeyaml.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\dom4j-1.6.1.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\log4j-1.2.17.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-3.10.1-20140818.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-examples-3.10.1-20140818.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-excelant-3.10.1-20140818.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-ooxml-3.10.1-20140818.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-scratchpad-3.10.1-20140818.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\saxon-8.7.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\SaxonLiaison.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\selenium-server-standalone-2.46.0.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\stax-api-1.0.1.jar C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\xmlbeans-2.6.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62382 -d C:\Automation Scripts\KHEG Marketing\SIF\test-output C:\Automation Scripts\KHEG Marketing\SIF\GO_Online.xml
+java -ea -classpath C:\Automation Scripts\KHEG Marketing\SIF\bin:D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\testng.jar:D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\jcommander.jar:D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\bsh-2.0b4.jar:D:\Scripts\eclipse\plugins\org.testng.eclipse_6.9.5.201506081335\lib\snakeyaml.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\dom4j-1.6.1.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\log4j-1.2.17.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-3.10.1-20140818.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-examples-3.10.1-20140818.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-excelant-3.10.1-20140818.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-ooxml-3.10.1-20140818.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-scratchpad-3.10.1-20140818.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\saxon-8.7.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\SaxonLiaison.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\selenium-server-standalone-2.46.0.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\stax-api-1.0.1.jar:C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\xmlbeans-2.6.0.jar org.testng.remote.RemoteTestNG -serport 62382 -d C:\Automation Scripts\KHEG Marketing\SIF\test-output C:\Automation Scripts\KHEG Marketing\SIF\GO_Online.xml
+!SESSION 2015-06-18 15:03:49.630 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-06-18 15:04:21.715
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-06-18 15:04:21.826
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\piyush.garg'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-06-24 20:04:46.564 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data C:\Automation Scripts\KHEG Marketing -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-06-24 20:04:57.785
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-06-24 20:04:57.835
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\piyush.garg'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-07-02 15:16:03.043 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data C:\Automation Scripts\KHEG Marketing -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-07-02 15:16:13.294
+!MESSAGE Invalid ZIP archive: C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\dom4j-1.6.1.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-07-02 15:16:13.633
+!MESSAGE Invalid ZIP archive: C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\log4j-1.2.17.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-07-02 15:16:13.638
+!MESSAGE Invalid ZIP archive: C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-3.10.1-20140818.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-07-02 15:16:13.650
+!MESSAGE Invalid ZIP archive: C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-examples-3.10.1-20140818.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-07-02 15:16:13.657
+!MESSAGE Invalid ZIP archive: C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-excelant-3.10.1-20140818.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-07-02 15:16:13.664
+!MESSAGE Invalid ZIP archive: C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-ooxml-3.10.1-20140818.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-07-02 15:16:13.670
+!MESSAGE Invalid ZIP archive: C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-ooxml-schemas-3.10.1-20140818.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-07-02 15:16:13.677
+!MESSAGE Invalid ZIP archive: C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\poi-scratchpad-3.10.1-20140818.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-07-02 15:16:13.684
+!MESSAGE Invalid ZIP archive: C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\saxon-8.7.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-07-02 15:16:13.689
+!MESSAGE Invalid ZIP archive: C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\SaxonLiaison.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-07-02 15:16:13.697
+!MESSAGE Invalid ZIP archive: C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\selenium-server-standalone-2.46.0.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-07-02 15:16:13.703
+!MESSAGE Invalid ZIP archive: C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\stax-api-1.0.1.jar
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-07-02 15:16:13.711
+!MESSAGE Invalid ZIP archive: C:\Users\piyush.garg\OneDrive\GOOnlineSIF\JarFiles\xmlbeans-2.6.0.jar
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-02 15:16:13.916
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-02 15:16:13.921
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\piyush.garg'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

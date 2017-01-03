@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="GOOnline">
+	
+	<listeners> 
+		<listener class-name="edu.kheg.utility.Screenshot_Utility"></listener> 
+ 	</listeners>
+ 	
+	<suite-files>
+<!-- If you have more test suites, Please add them bellow. -->
+   		<suite-file path="./GO_Online.xml" />
+   		
+   
+  </suite-files>
+  
+ </suite>
